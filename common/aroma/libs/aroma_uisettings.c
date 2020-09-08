@@ -289,14 +289,6 @@ void aui_show_setting() {
           }
         }
         break;
-        
-      case 21: {
-          //-- CALIB
-          if (aw_calibtools(NULL)) {
-            aui_cfg_save();
-          }
-        }
-        break;
     }
   }
   while (ondispatch);

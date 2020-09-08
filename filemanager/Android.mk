@@ -15,18 +15,10 @@ include $(CLEAR_VARS)
   
   ## binary output path
   AROMA_OUT_PATH := $(TARGET_RECOVERY_ROOT_OUT)/../../aromafm_out
-
-  ## AROMA CONTROLS SOURCE FILES
-  LOCAL_SRC_FILES := \
-    src/controls/aroma_controls.c \
-    src/controls/aroma_control_checkbox.c \
-    src/controls/aroma_control_imgbutton.c \
-    src/controls/aroma_control_menubox.c \
-    src/controls/aroma_control_optbox.c \
-    src/controls/aroma_control_textbox.c
   
   ## AROMA FILEMANAGER SOURCE FILES
   LOCAL_SRC_FILES += \
+    src/main/aroma_controls.c \
     src/main/aroma.c \
     src/main/aroma_ui.c
 

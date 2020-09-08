@@ -12,18 +12,10 @@ include $(CLEAR_VARS)
 
   ## LOCAL PATH COPY
   AROMA_INSTALLER_LOCALPATH := $(LOCAL_PATH)
-  
-  ## AROMA CONTROLS SOURCE FILES
-  LOCAL_SRC_FILES += \
-    src/controls/aroma_controls.c \
-    src/controls/aroma_control_checkbox.c \
-    src/controls/aroma_control_imgbutton.c \
-    src/controls/aroma_control_menubox.c \
-    src/controls/aroma_control_optbox.c \
-    src/controls/aroma_control_textbox.c \
-  
+
   ## AROMA INSTALLER SOURCE FILES
   LOCAL_SRC_FILES += \
+    src/main/aroma_controls.c \
     src/main/aroma_ui.c \
     src/main/aroma_installer.c \
     src/main/aroma.c

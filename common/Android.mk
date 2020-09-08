@@ -112,6 +112,11 @@ LOCAL_MODULE := libaroma_common
     aroma/controls/aroma_control_label.c \
     aroma/controls/aroma_control_progress.c \
     aroma/controls/aroma_control_threads.c \
+    aroma/controls/aroma_control_checkbox.c \
+    aroma/controls/aroma_control_imgbutton.c \
+    aroma/controls/aroma_control_menubox.c \
+    aroma/controls/aroma_control_optbox.c \
+    aroma/controls/aroma_control_textbox.c \
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include
 
